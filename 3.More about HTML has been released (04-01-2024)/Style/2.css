@@ -1,0 +1,49 @@
+/* Style for header section */
+header{
+    background-color: #3e44f4;
+    height: 50px;
+    border-radius: 10px;
+}
+
+header > nav > ul > li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header > nav > ul{
+    padding-top: 10px;
+    text-align: center;
+}
+
+header > nav > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/* Style for Main section */
+
+#catimg{
+    width: 40%;
+}
+
+#carrotimg{
+    width: 40%;
+}
+
+#fig1{
+    text-align: center;
+}
+
+#fig2{
+    text-align: center;
+}
+
+
+/* Style for Footer section */
+
+footer > p{
+    text-align: right;
+    font-weight: bold;
+}

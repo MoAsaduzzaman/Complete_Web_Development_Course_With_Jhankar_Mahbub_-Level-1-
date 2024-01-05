@@ -1,0 +1,13 @@
+label{
+    display: block;
+    margin: 7px;
+}
+
+.ip{
+    margin: 5px;
+}
+
+footer{
+    text-align: end;
+    font-weight: bold;
+}
