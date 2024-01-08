@@ -371,6 +371,11 @@ span{
     gap: 10px;
 }
 
+.section6-img:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(239, 0, 0, 0.5);
+}
+
 /* section7 styles */
 .section-7{
     width: 82%;
@@ -482,4 +487,8 @@ hr{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
+}
+
+.footer-div2-img:hover{
+    cursor: pointer;
 }
