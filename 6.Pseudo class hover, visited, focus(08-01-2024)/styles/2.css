@@ -1,0 +1,42 @@
+.dummy{
+    border: 2px solid #000;
+    width: 100%px;
+    height: 100px;
+}
+
+.container{
+    position: relative;
+    border: 2px solid #000;
+    width: 200px;
+}
+
+.box{
+    border: 2px dotted #000;
+    width: 200px;
+}
+
+/* Relative position */
+.ring{
+    position: relative;
+    right: 10px;
+    top: 100px;
+}
+
+/* Absolute position */
+.ring{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+/* Sticky position */
+.ring{
+    position: sticky;
+    top: 0px;
+}
+
+/* Position fixed */
+.ring{
+    position: fixed;
+    left: 100px;
+}

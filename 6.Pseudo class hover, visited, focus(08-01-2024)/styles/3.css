@@ -1,0 +1,43 @@
+.box{
+    position: relative;
+}
+
+.boy{
+    z-index: 10;
+}
+
+.ring{
+    top: -70px;
+    z-index: 5;
+}
+
+.water{
+    top: -150px;
+    z-index: 0;
+}
+
+h2::after{
+    content: '.docx';
+    color: blue;
+    font-size: 16px;
+    background-color: yellow;
+}
+
+h2::before{
+    content: '------';
+    color: blue;
+    background-color: yellow;
+}
+
+p::first-letter{
+    font-size: 1.5em;
+    color: blue;
+}
+
+p::first-line{
+    background-color: antiquewhite;
+}
+
+::selection{
+    background-color: rgb(219, 249, 47);
+}

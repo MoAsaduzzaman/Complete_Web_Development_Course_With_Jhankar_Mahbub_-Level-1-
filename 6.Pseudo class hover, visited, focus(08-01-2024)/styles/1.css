@@ -1,0 +1,13 @@
+h1:hover{
+    color: red;
+}
+
+input:hover{
+    color: blue;
+    box-shadow: 5px 5px 10px #e90404;
+}
+
+input:focus{
+    color: rgb(55, 255, 19);
+    box-shadow: 5px 5px 10px #f50495;
+}
