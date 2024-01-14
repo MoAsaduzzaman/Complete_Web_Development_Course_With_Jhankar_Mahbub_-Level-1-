@@ -1,0 +1,39 @@
+:root{
+    --primary-col: #53f004;
+    --font-size: 20px;
+}
+
+h1{
+    color: var(--primary-col);
+}
+
+h5{
+    color: var(--primary-col);
+}
+
+.container-1{
+    border: 2px solid var(--primary-col);
+}
+
+p{
+    font-size: var(--font-size);
+    background-color: var(--primary-col);
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: 200px calc(100% - 200px);
+    gap: 20px;
+    grid-template-rows: 200px;
+}
+
+#abc{
+    background-color: #66785c;
+}
+
+#def{
+    background-color: aqua;
+}
+
+
+

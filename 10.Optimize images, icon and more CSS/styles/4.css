@@ -1,0 +1,33 @@
+body{
+    margin: 50px;
+}
+
+.container , .inner{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    border: 2px solid tomato;
+    background-color: aquamarine;
+}
+
+.inner{
+    border: 2px solid tomato;
+    background-color: antiquewhite;
+
+    /* Use Transform: scale,rotate,translate */
+
+    /* transform: scale(0.75); */
+    /* transform: scale(0.25,0.5); */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+    /* transform: translate(45px,45px); */
+    /* transform: translateX(20px); */
+    /* transform: translateY(30px); */
+    /* transform: scale(0.75) rotate(45deg) translate(20px,40px); */
+}
+
+.inner:hover{
+    transform: scale(0.75) rotate(45deg) translate(20px,40px);
+}
