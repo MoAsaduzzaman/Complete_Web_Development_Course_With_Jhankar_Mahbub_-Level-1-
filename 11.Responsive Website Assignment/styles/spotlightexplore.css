@@ -8,8 +8,12 @@
     font-family: 'Mulish', sans-serif;
 }
 
+header,main{
+    width: 1440px;
+    margin: 0 auto;
+}
+
 body{
-    max-width: 1440px;
     margin: 0;
     border: 0;
 }
@@ -615,6 +619,57 @@ select{
     font-weight: 800;
 }
 
+/* Footer section styles */
+footer{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.foot-nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-description{
+    width: 769px;
+    margin: 10px auto;
+    color: #5A5A5D;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.foot-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.hor{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.hor hr{
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.foot-foot{
+    text-align: center;
+}
+
+.primary-btn,.sen-btn,.form-button:hover{
+    cursor: pointer;
+}
 
 
 
