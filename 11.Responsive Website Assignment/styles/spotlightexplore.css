@@ -671,6 +671,14 @@ i:hover{
     cursor: pointer;
 }
 
+.review-container{
+    width: 72%;
+    margin: 0 auto;
+    border: 1px solid tomato;
+    margin-bottom: 50px;
+    
+}
+
 
 
 
